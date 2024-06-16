@@ -1,0 +1,11 @@
+{
+    "Lua.workspace.library": [
+        "C:/Users/rtmba/scoop/apps/vscode/1.89.1/data/user-data/User/globalStorage/sumneko.lua/addonManager/addons/cc-tweaked/module/library"
+    ],
+    "Lua.runtime.version": "Lua 5.3",
+    "Lua.runtime.builtin": {
+        "io": "disable",
+        "os": "disable"
+    },
+    "Lua.workspace.checkThirdParty": false
+}
