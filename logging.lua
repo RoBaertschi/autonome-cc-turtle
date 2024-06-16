@@ -25,5 +25,4 @@ function M.startLoggingTab()
     id = shell.openTab("log.lua")
 end
 
-
 return M

@@ -63,4 +63,4 @@ logging.log(0, "Hello")
 print("Start finding bedrock");
 
 
-require("find_bedrock").start();
+require("find_bedrock"):start();

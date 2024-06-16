@@ -66,4 +66,8 @@ function M.validate(input)
     return nil
 end
 
+function M.getY()
+    return State.y
+end
+
 return M
