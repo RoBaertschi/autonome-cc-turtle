@@ -1,1 +1,1 @@
-require("item_manager").update()
+require("item_manager"):update()
