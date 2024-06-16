@@ -4,6 +4,34 @@ term.setCursorPos(1, 1)
 print("Sentien Turtle Version 0.1")
 logging.startLoggingTab()
 
+
+-- What do i need?
+-- Sand -> Glass -> Glass Pane
+-- Cobblestone -> Furnace -> Stone, Iron Ingot
+-- Redstone
+-- Iron Ore
+-- Log -> Planks -> Chest, Crafting Table
+-- Diamond -> Diamond Pickaxe
+-- Sugar Cane -> Paper -> Floppy Disk
+
+-- Floppy Disk = Redstone, Any Dye, Paper
+-- -> Dye = Flowers
+-- -> Paper = 3 Sugar Cane
+-- Turtle = Iron Ingot, Computer, Chest
+-- -> Iron Ingot = Furnace => Iron Ore
+--  -> Furnace = Cobblestone, Cobbled Deepslate
+-- -> Computer = Redstone, Stone, Glass Pane
+--  -> Stone = Furnace => Cobblestone
+--  -> Glass Pane = Glass
+--   -> Glass = Furnace => Sand
+-- -> Chest = Planks
+--  -> Planks = Log
+
+-- Ores to mine
+-- Coal = 44
+-- Iron, Diamond and Redstone = above bedrock
+
+
 ---
 ---@param question string
 ---@param inputValidation fun(input: string): any If the return value is nil, the input was invalid, else that value will be returned
