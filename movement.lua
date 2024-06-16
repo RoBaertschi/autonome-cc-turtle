@@ -37,6 +37,27 @@ function M.down()
     return turtle.down()
 end
 
+---@param direction Direction
+---@return integer, integer
+function M.directionToPos(direction)
+    if direction == Direction.North then
+        return 0, -1
+    elseif direction == Direction.South then
+        return 0, 1
+    elseif direction == Direction.West then
+        return -1, 0
+    else
+        return 1, 0
+    end
+end
+
+function M.forward()
+    local x, z = M.directionToPos(State.direction)
+    State.x = x + State.x
+    State.z = z + State.z
+    return turtle.forward()
+end
+
 function M.turnLeft()
     State.direction = State.direction - 1
     if State.direction < Direction.North then
@@ -68,6 +89,11 @@ end
 
 function M.getY()
     return State.y
+end
+
+---@return {x: integer, y: integer, z: integer, direction: Direction}
+function M.getState()
+    return State
 end
 
 return M

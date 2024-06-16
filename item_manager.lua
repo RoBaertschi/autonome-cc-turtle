@@ -5,7 +5,7 @@ local M = {
 M.disabled = false
 
 ---@type {item: string, has_tags?: string, max_needed: number}[]
-local ItemsNeeded = {
+M.ItemsNeeded = {
     -- Furnace, Stone
     { item = "minecraft:cobblestone",  max_needed = 64 },
     { item = "minecraft:redstone",     max_needed = 64 },
@@ -18,6 +18,9 @@ local ItemsNeeded = {
     { item = "minecraft:lapis_lazuli", max_needed = 64 },
     { item = "minecraft:sugar_cane",   max_needed = 64 },
 }
+
+local ItemsNeeded = M.ItemsNeeded
+
 local MiningRequiredItems = {
     ["minecraft:redstone"] = 4,
     ["minecraft:lapis_lazuli"] = 1,

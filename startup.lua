@@ -4,6 +4,11 @@ term.setCursorPos(1, 1)
 print("Sentien Turtle Version 0.1")
 logging.startLoggingTab()
 
+---@class Vec
+---@field x integer
+---@field y integer
+---@field z integer
+
 
 -- What do i need?
 -- Sand -> Glass -> Glass Pane
